@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES6",
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "outDir": "dist"
+  },
+  "include": [
+      "./src/main/*.ts",
+      "./src/main/**/*.ts",
+      "./src/shared/IAppIpcHost.ts"
+  ]
+}
